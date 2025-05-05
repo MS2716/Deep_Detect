@@ -1,0 +1,71 @@
+# Sensitive data files
+*.key
+*.pem
+*.crt
+*.env
+*.json
+*.yaml
+*.yml
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+
+# Keras model files
+*.h5
+*.hdf5
+*.keras
+
+# Celeb data files
+celeba/
+celeba-dataset/
+*.celeba
+Celeb-DF/
+
+deepfake_backend\deepfake_backend\settings.py
+
+venv/
+
+
+
+
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+config/firebase.ts
+
+# typescript
+*.tsbuildinfo
+
+app-example
